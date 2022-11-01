@@ -27,7 +27,6 @@ $prodi = isset($_POST['prodi']) ? $_POST['prodi'] : "";
         <?php if ($nim == "" || $nama == "" || $prodi == "") : ?>
             <p>Isi Semua Data. Klik <a href="input.php">di sini</a> untuk kembali</p>
         <?php
-
             die;
         endif; ?>
 
