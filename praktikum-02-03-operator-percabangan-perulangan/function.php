@@ -68,7 +68,7 @@ function getHari($hariInggris)
 
 function getDateTime()
 {
-
-    $value = getHari(date('l')) . ", " . date('d') . " " . getBulan(date('m')) . " " . date('Y') . " " . date('h:i:s');
+    date_default_timezone_set('Asia/Makassar');
+    $value = getHari(date('l')) . ", " . date('d') . " " . getBulan(date('m')) . " " . date('Y') . " " . date('H:i:s');
     return $value;
 }
