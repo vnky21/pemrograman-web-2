@@ -29,7 +29,7 @@ if (isset($_POST['submit']) && $angka_pertama != "" && $angka_kedua != "") {
 
     <div class="container mt-5">
         <div class="text-center">
-            <h3>OPERATOR MATEMATIKA</h3>
+            <h3>OPERATOR ARITMATIKA</h3>
             <p>20202205060 - Rivanky Valensius Bara <br>
                 <?= getDateTime(); ?></p>
 
