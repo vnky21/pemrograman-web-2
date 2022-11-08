@@ -29,7 +29,7 @@ if (isset($_POST['submit']) && $angka_pertama != "" && $angka_kedua != "") {
 
     <div class="container mt-5">
         <div class="text-center">
-            <h3>OPERATOR MATEMATIKA</h3>
+            <h3>OPERATOR ARITMATIKA</h3>
             <p>20202205060 - Rivanky Valensius Bara <br>
                 <?= getDateTime(); ?></p>
 
@@ -88,7 +88,7 @@ if (isset($_POST['submit']) && $angka_pertama != "" && $angka_kedua != "") {
             <div class="col-sm-2"></div>
             <div class="col-sm-7">
                 <?php if (isset($_POST['submit']) && $angka_pertama != "" && $angka_kedua != "") : ?>
-                    <h3>Hasil Operasi Artimatika</h3> <br>
+                    <h4>Hasil Operasi Artimatika</h4> <br>
                     <p># Hasil Penjumlahan = <?= $hasil_jumlah; ?></p>
                     <p># Hasil Pengurangan = <?= $hasil_kurang; ?> </p>
                     <p># Hasil Perkalian = <?= $hasil_kali; ?></p>
